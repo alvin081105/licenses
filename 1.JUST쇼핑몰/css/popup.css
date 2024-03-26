@@ -1,0 +1,38 @@
+
+#popup{
+    width:500px;
+    height:500px;
+    /* background-color: indigo; */
+    background-color: #fff;
+    position: fixed;
+    left:100px;
+    top:100px;
+    z-index:9;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    display:none;
+}
+#popup-img{
+    width:500px;
+    height:450px;
+    /* background-color: indianred; */
+}
+#popup-img>img{
+    display:block;
+    width:100%;
+    height:100%;
+}
+#popup-btn{
+    width:500px;
+    height:50px;
+    /* background-color: thistle; */
+    padding:15px;
+    box-sizing: border-box;
+}
+#popup-btn>input{
+    cursor: pointer;
+}
+#popup-btn>button{
+    float:right;
+    cursor: pointer;
+}
